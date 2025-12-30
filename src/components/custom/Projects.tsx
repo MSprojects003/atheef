@@ -83,7 +83,7 @@ const Projects: React.FC = () => {
       subtitle: "Live Demo",
       href: "https://imobile.lk",
       liveDemo: true,
-      github: "https://github.com/user/ecommerce",
+      github: "https://github.com/MSprojects003/imobile",
       images: [
         imobile1,
        imobile12,
@@ -100,7 +100,7 @@ const Projects: React.FC = () => {
       subtitle: "Live Demo",
       href: "https://savoy-lk.vercel.app/",
       liveDemo: true,
-      github: "https://github.com/user/taskapp",
+      github: "https://github.com/MSprojects003/Savoy-Cinema-Ticket-Booking-Website",
       images: [
         savoy1,
         savoy2,
@@ -116,7 +116,7 @@ const Projects: React.FC = () => {
       subtitle: "View on GitHub",
       href: "https://imobile-admin.vercel.app/",
       liveDemo: true,
-      github: "https://github.com/user/dashboard",
+      github: "https://github.com/MSprojects003/imobile-admin",
       images: [
        imobile_a1,
        imobile_a2,
@@ -136,7 +136,7 @@ const Projects: React.FC = () => {
       subtitle: "View on GitHub",
       href: "https://portfolio-six-gray-50.vercel.app/",
       liveDemo: true,
-      github: "https://github.com/user/portfolio",
+      github: "https://github.com/MSprojects003/portfolio",
       images: [
         shaereena1,
         shaereena2,
