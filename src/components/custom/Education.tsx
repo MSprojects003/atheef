@@ -42,7 +42,7 @@ const Education: React.FC = () => {
               className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 bg-white overflow-hidden flex-1"
             >
               <CardHeader className="pb-4 bg-gradient-to-r from-indigo-50 via-blue-50 to-purple-50">
-                <div className="flex items-start gap-3">
+                <div className="flex text-black items-start gap-3">
                   {entry.icon}
                   <div className="flex-1">
                     <CardTitle className="text-lg font-semibold text-gray-900">

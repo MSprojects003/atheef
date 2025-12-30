@@ -102,9 +102,9 @@ const Skills: React.FC = () => {
                   className="flex-shrink-0 w-full lg:w-1/3 px-2"
                 >
                   <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-300 bg-white h-full overflow-hidden">
-                    <CardHeader className="pb-4 bg-gradient-to-r from-indigo-50 via-blue-50 to-purple-50">
-                      <div className="flex items-center gap-2">
-                        {skillGroup.icon}
+                    <CardHeader className="pb-2 pt-2 bg-gradient-to-r from-indigo-50 via-blue-50 to-purple-50">
+                      <div className="flex items-center  text-black gap-2">
+                        
                         <CardTitle className="text-xl font-bold text-gray-900">
                           {skillGroup.category}
                         </CardTitle>

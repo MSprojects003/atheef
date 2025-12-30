@@ -18,6 +18,15 @@ const Home1: React.FC = () => {
           </svg>
         </a>
         <a
+          href="tel:+94787987255" // Replace with your phone number (e.g., tel:+94123456789)
+          aria-label="Call"
+          className="group p-2 bg-gray-100 rounded-md hover:bg-gray-200 transition-all duration-300"
+        >
+          <svg className="w-5 h-5 text-gray-600 group-hover:text-gray-900 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+          </svg>
+        </a>
+        <a
           href="https://github.com/yourusername"
           target="_blank"
           rel="noopener noreferrer"
@@ -125,6 +134,16 @@ const Home1: React.FC = () => {
               <svg className="w-6 h-6 text-gray-600 group-hover:text-gray-900 transition-colors" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                 <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+            </a>
+            
+            <a
+              href="tel:+1234567890" // Replace with your phone number (e.g., tel:+94123456789)
+              aria-label="Call"
+              className="group p-3 bg-white rounded-lg shadow-md hover:shadow-lg border border-gray-200 hover:border-green-500 transition-all duration-300"
+            >
+              <svg className="w-6 h-6 text-gray-600 group-hover:text-gray-900 transition-colors" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
               </svg>
             </a>
             

@@ -5,7 +5,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Projects from './Projects';
 import Education from './Education';
-import cv from "../../assets/cv/Copy of Education (1).pdf.pdf"
+import cv from "../../assets/cv/Copy of Education (1).pdf.pdf";
 
 const navItems = [
   { href: '#home', label: 'Home', icon: Home },
@@ -60,9 +60,9 @@ export default function NavigationBar() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Social Icons (Left Side) */}
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 justify-start">
               <a
-                href="https://linkedin.com/in/yourusername" // Replace with your LinkedIn URL
+                href="https://www.linkedin.com/in/badurdeen-mohamed-atheef-018ba924a/" // Fixed URL
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-950 transition-colors p-2 rounded-lg "
@@ -71,7 +71,7 @@ export default function NavigationBar() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://github.com/yourusername" // Replace with your GitHub URL
+                href="https://github.com/MSprojects003" // Fixed double "https://"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-950 transition-colors p-2 rounded-lg "
@@ -80,7 +80,7 @@ export default function NavigationBar() {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="mailto:your@email.com" // Replace with your email
+                href="mailto:mbaasatheef@email.com" // Fixed email
                 className="text-gray-950 transition-colors p-2 rounded-lg "
                 aria-label="Email"
               >
@@ -99,8 +99,8 @@ export default function NavigationBar() {
                     onClick={() => handleClick(item.href, item.isDownload)}
                     className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-200 ${
                       isActive
-                        ? 'bg-transparent0 text-black '
-                        : 'text-gray-900  hover:text-950 '
+                        ? 'bg-transparent text-black '
+                        : 'text-gray-900 hover:text-black '
                     }`}
                   >
                     <Icon className="w-4 h-4" />
