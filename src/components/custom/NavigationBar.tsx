@@ -9,7 +9,7 @@ import cv from "../../assets/cv/Copy of Education (1).pdf.pdf"
 
 const navItems = [
   { href: '#home', label: 'Home', icon: Home },
-  { href: '#experience', label: 'Experience', icon: UserActivation },
+  { href: '#experience', label: 'Experience', icon: User },
   { href: '#skills', label: 'Skills', icon: Code },
   { href: '#projects', label: 'Projects', icon: Folder },
   { href: cv, label: 'CV', icon: FileText, isDownload: true }, // Updated for download
